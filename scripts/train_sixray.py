@@ -33,7 +33,7 @@ class SIXRayTrainer:
         print(f"🐍 PyTorch version: {torch.__version__}")
         print(f"⚡ CUDA available: {cuda.is_available()}")
         
-        device = 'cpu'  # по умолчанию
+        device = 'gpu'  # по умолчанию
         
         if cuda.is_available():
             # Получаем информацию о GPU

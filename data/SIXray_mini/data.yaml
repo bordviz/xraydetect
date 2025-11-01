@@ -1,0 +1,16 @@
+names:
+  0: gun
+  1: knife
+  2: wrench
+  3: pliers
+  4: scissors
+nc: 5
+path: /Users/bordvizov/Desktop/Python/xraydetect/data/SIXray_mini
+roboflow:
+  license: null
+  project: null
+  version: null
+  workspace: null
+test: test/images
+train: train/images
+val: valid/images

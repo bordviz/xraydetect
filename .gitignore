@@ -5,5 +5,6 @@ MANIFEST
 *.pyo
 *.egg-info
 *.DS_Store
+*.cache
 
 yolov8m.pt

@@ -1,19 +1,16 @@
-path: /Users/bordvizov/Desktop/Python/xraydetect/data/SIXray  # абсолютный путь к папке SIXray
-train: train/images
-val: valid/images 
-test: test/images
-
-nc: 5  # количество классов (gun, knife, wrench, pliers, scissors)
-names: 
+names:
   0: gun
   1: knife
-  2: wrench 
+  2: wrench
   3: pliers
   4: scissors
-
-# Дополнительные настройки
+nc: 5
+path: /Users/bordvizov/Desktop/Python/xraydetect/data/SIXray
 roboflow:
-  workspace: 
-  project: 
-  version: 
-  license: 
+  license: null
+  project: null
+  version: null
+  workspace: null
+test: test/images
+train: train/images
+val: valid/images
